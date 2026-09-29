@@ -1,3 +1,4 @@
+#include <stdio.h>
 void insertion(int arr[], int n) {
     int index, new;
 
