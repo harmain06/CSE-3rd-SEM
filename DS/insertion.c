@@ -21,8 +21,16 @@ void insertion(int arr[], int n) {
     printf("\n");
 }
 int main() {
-    int arr[100] = {10, 20, 30, 40};
-    int n = 4;
+  int arr[100], size;
+
+    printf("Enter the Size of Array: ");
+    scanf("%d", &size);
+
+
+    printf("Enter the Elements of Array: ");
+    for(i = 0; i < size; i++) {
+        scanf("%d", &arr[i]);
+        
 
     insertion(arr, n);
 
